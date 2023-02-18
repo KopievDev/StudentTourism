@@ -11,12 +11,14 @@ class MainView: BaseView {
     @IBOutlet var bannerCollection: BannerCollection!
     @IBOutlet var cityCollection: CityCollection!
     @IBOutlet var hotelsCollection: CityCollection!
+    @IBOutlet var promotionCollection: CityCollection!
 
     
     override func customizeUI() {
         bannerCollection.items = [Item(reuseId: "BannerCell"),Item(reuseId: "BannerCell"),Item(reuseId: "BannerCell"),Item(reuseId: "BannerCell") ]
         cityCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
         hotelsCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"), Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
+        promotionCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"), Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
 
     }
     
