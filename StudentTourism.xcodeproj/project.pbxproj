@@ -59,6 +59,9 @@
 		B5AA8DF229A105B900B808F5 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DEF29A105B900B808F5 /* BookVC.swift */; };
 		B5AA8DF329A105B900B808F5 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DF029A105B900B808F5 /* BookView.swift */; };
 		B5AA8DF429A105B900B808F5 /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8DF129A105B900B808F5 /* Book.storyboard */; };
+		B5AA8DF929A1079600B808F5 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8DF629A1079500B808F5 /* Notification.storyboard */; };
+		B5AA8DFA29A1079600B808F5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DF729A1079500B808F5 /* NotificationView.swift */; };
+		B5AA8DFB29A1079600B808F5 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DF829A1079500B808F5 /* NotificationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +134,9 @@
 		B5AA8DEF29A105B900B808F5 /* BookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
 		B5AA8DF029A105B900B808F5 /* BookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		B5AA8DF129A105B900B808F5 /* Book.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Book.storyboard; sourceTree = "<group>"; };
+		B5AA8DF629A1079500B808F5 /* Notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		B5AA8DF729A1079500B808F5 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		B5AA8DF829A1079500B808F5 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,10 +204,11 @@
 			isa = PBXGroup;
 			children = (
 				B5AA8DEE29A105B800B808F5 /* BookVC */,
-				B539B5E629A09A2B004B38D9 /* Main */,
-				B539B5E529A09A20004B38D9 /* LaunchScreen */,
-				B555B38D29A0F7C9007DF10D /* Tabbar */,
 				B555B39429A0F7FA007DF10D /* Fav */,
+				B539B5E529A09A20004B38D9 /* LaunchScreen */,
+				B539B5E629A09A2B004B38D9 /* Main */,
+				B5AA8DF529A1079500B808F5 /* NotifyVC */,
+				B555B38D29A0F7C9007DF10D /* Tabbar */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -320,6 +327,16 @@
 			path = BookVC;
 			sourceTree = "<group>";
 		};
+		B5AA8DF529A1079500B808F5 /* NotifyVC */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA8DF629A1079500B808F5 /* Notification.storyboard */,
+				B5AA8DF729A1079500B808F5 /* NotificationView.swift */,
+				B5AA8DF829A1079500B808F5 /* NotificationVC.swift */,
+			);
+			path = NotifyVC;
+			sourceTree = "<group>";
+		};
 		B846DA736BE5020AA23C827B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B539B55F29A09771004B38D9 /* LaunchScreen.storyboard in Resources */,
+				B5AA8DF929A1079600B808F5 /* Notification.storyboard in Resources */,
 				B539B5D029A098AC004B38D9 /* mastercard.json in Resources */,
 				B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */,
 				B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */,
@@ -475,7 +493,9 @@
 				B539B5EC29A09DCA004B38D9 /* Popup.swift in Sources */,
 				B539B5C229A0986B004B38D9 /* DataSource.swift in Sources */,
 				B5AA8DF329A105B900B808F5 /* BookView.swift in Sources */,
+				B5AA8DFA29A1079600B808F5 /* NotificationView.swift in Sources */,
 				B539B5B929A0986B004B38D9 /* AlefData.swift in Sources */,
+				B5AA8DFB29A1079600B808F5 /* NotificationVC.swift in Sources */,
 				B539B55729A09770004B38D9 /* MainVC.swift in Sources */,
 				B539B5C729A0986B004B38D9 /* UILabel.swift in Sources */,
 				B539B5A229A0986B004B38D9 /* Date.swift in Sources */,

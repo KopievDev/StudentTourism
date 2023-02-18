@@ -24,7 +24,7 @@ final class TabBarVC: UITabBarController, UITabBarControllerDelegate {
         let bookVC = BookVC.instantiate()!
         bookVC.tabBarItem = UITabBarItem(title: nil, image: Asset.Assets.bookTab.image, tag: 2)
         
-        let notifyVC = MainVC.instantiate()!
+        let notifyVC = NotificationVC.instantiate()!
         notifyVC.tabBarItem = UITabBarItem(title: nil, image: Asset.Assets.notifyTab.image, tag: 3)
         
         let profileVC = MainVC.instantiate()!

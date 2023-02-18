@@ -54,7 +54,9 @@ internal enum Asset {
     internal static let sGreenBack = ColorAsset(name: "sGreenBack")
     internal static let sGreenBoarder = ColorAsset(name: "sGreenBoarder")
     internal static let sGreenBoarderStrong = ColorAsset(name: "sGreenBoarderStrong")
+    internal static let sRed = ColorAsset(name: "sRed")
     internal static let sSecondary = ColorAsset(name: "sSecondary")
+    internal static let sWhiteBlue = ColorAsset(name: "sWhiteBlue")
   }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
