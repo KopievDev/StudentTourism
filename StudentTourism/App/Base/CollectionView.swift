@@ -7,9 +7,15 @@
 
 import UIKit
 
+typealias Items = [Item]
+struct Item {
+    var reuseId: String
+    var data: [String:Any?] = [:]
+}
+
 class CollectionView: UIView {
     @IBOutlet var collectionView: UICollectionView!
-    var items: [[String:Any?]] = [] {
+    var items: Items = [] {
         didSet { collectionView.reloadData() }
     }
     
@@ -24,7 +30,7 @@ class CollectionView: UIView {
 		CellSize(widthScale: 0.2, aspectRatio: 1, insetX: 16).forCollectionView(collectionView, lineSpacing: nil, scrollDirection: nil)
     }
     
-    func render(data: [[String:Any?]]) {
+    func render(data: Items) {
         items = data
     }
     
@@ -65,8 +71,8 @@ extension CollectionView: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int { 1 }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { items.count }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let reuseId = items[indexPath.row][s: .reuseId]
-        let data = items[indexPath.row][d: .data]
+        let reuseId = items[indexPath.row].reuseId
+        let data = items[indexPath.row].data
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseId, for: indexPath)
         (cell as? CollectionCell)?.render(data:data)
         return cell

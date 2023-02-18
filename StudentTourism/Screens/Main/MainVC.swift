@@ -9,6 +9,9 @@ import UIKit
 
 class MainVC: BaseVC {
     
+    override var withNavigationBar: Bool { false }
+    override var preferredStatusBarStyle: UIStatusBarStyle { .darkContent }
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
