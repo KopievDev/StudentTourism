@@ -14,6 +14,12 @@ class TourViewVC: BaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        (tabBarController as? TabBarVC)?.set(hidden: true)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        (tabBarController as? TabBarVC)?.set(hidden: false)
     }
     
 }
