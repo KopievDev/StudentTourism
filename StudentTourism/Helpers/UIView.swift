@@ -1098,3 +1098,25 @@ extension UITextField {
         get { self.placeholderColor }
     }
 }
+
+extension UIBarButtonItem {
+    static func button(title: String, target: Any? = nil, action: Selector? = nil, size: CGSize = .init(width: 65, height: 32)) -> UIBarButtonItem {
+        let label = UILabel(title: title, font: .boldSystemFont(ofSize: 11), color: .white, alignment: .center, lines: 1)
+        label.backgroundColor = .fDarkGray
+        label.size(width: size.width, height: size.height).cornerRadius(size.height/2)
+        label.addGestureRecognizer(UITapGestureRecognizer(target: target, action: action))
+        label.isUserInteractionEnabled = true
+        let button = UIBarButtonItem(customView: label)
+        return button
+    }
+    
+    static func button(title: String, target: Any? = nil, textColor: UIColor = Asset.Colors.sBlack.color, color: UIColor = .clear, action: Selector? = nil, size: CGSize = .init(width: 65, height: 32)) -> UIBarButtonItem {
+        let label = UILabel(title: title, font: .boldSystemFont(ofSize: 11), color: textColor, alignment: .center, lines: 1)
+        label.backgroundColor = color
+        label.size(width: size.width, height: size.height).cornerRadius(size.height/2)
+        label.addGestureRecognizer(UITapGestureRecognizer(target: target, action: action))
+        label.isUserInteractionEnabled = true
+        let button = UIBarButtonItem(customView: label)
+        return button
+    }
+}

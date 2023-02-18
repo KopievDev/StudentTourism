@@ -49,7 +49,8 @@ final class TabBarVC: UITabBarController, UITabBarControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.setNavigationBarHidden(true, animated: false)
+        navigationController?.navigationBar.backItem?.title = ""
+
         tabBar.cornerRadius = 16
         self.tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         tabBar.itemPositioning = .centered

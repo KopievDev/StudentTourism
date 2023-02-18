@@ -46,6 +46,7 @@ internal enum Asset {
     internal static let profileTab = ImageAsset(name: "profile_tab")
     internal static let rick = ImageAsset(name: "rick")
     internal static let search = ImageAsset(name: "search")
+    internal static let sort = ImageAsset(name: "sort")
     internal static let star = ImageAsset(name: "star")
     internal static let userEdit = ImageAsset(name: "user-edit")
     internal static let user = ImageAsset(name: "user")

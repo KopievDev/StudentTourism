@@ -167,6 +167,9 @@
                                                                                     <real key="value" value="8"/>
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <action selector="didTapTourWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="LIj-XW-dtn"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <constraints>

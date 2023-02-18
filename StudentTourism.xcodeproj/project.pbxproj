@@ -68,6 +68,9 @@
 		B5AA8E0729A1134200B808F5 /* FiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E0429A1134200B808F5 /* FiltersVC.swift */; };
 		B5AA8E0829A1134200B808F5 /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E0529A1134200B808F5 /* FiltersView.swift */; };
 		B5AA8E0929A1134200B808F5 /* Filters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E0629A1134200B808F5 /* Filters.storyboard */; };
+		B5AA8E0E29A11B9E00B808F5 /* ToursVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E0B29A11B9E00B808F5 /* ToursVC.swift */; };
+		B5AA8E0F29A11B9E00B808F5 /* ToursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E0C29A11B9E00B808F5 /* ToursView.swift */; };
+		B5AA8E1029A11B9E00B808F5 /* Tours.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E0D29A11B9E00B808F5 /* Tours.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +152,9 @@
 		B5AA8E0429A1134200B808F5 /* FiltersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersVC.swift; sourceTree = "<group>"; };
 		B5AA8E0529A1134200B808F5 /* FiltersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
 		B5AA8E0629A1134200B808F5 /* Filters.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Filters.storyboard; sourceTree = "<group>"; };
+		B5AA8E0B29A11B9E00B808F5 /* ToursVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToursVC.swift; sourceTree = "<group>"; };
+		B5AA8E0C29A11B9E00B808F5 /* ToursView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToursView.swift; sourceTree = "<group>"; };
+		B5AA8E0D29A11B9E00B808F5 /* Tours.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tours.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +221,7 @@
 		B539B56729A09820004B38D9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B5AA8E0A29A11B9E00B808F5 /* Tours */,
 				B5AA8E0329A1134200B808F5 /* Filters */,
 				B5AA8DEE29A105B800B808F5 /* Book */,
 				B555B39429A0F7FA007DF10D /* Fav */,
@@ -371,6 +378,16 @@
 			path = Filters;
 			sourceTree = "<group>";
 		};
+		B5AA8E0A29A11B9E00B808F5 /* Tours */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA8E0B29A11B9E00B808F5 /* ToursVC.swift */,
+				B5AA8E0C29A11B9E00B808F5 /* ToursView.swift */,
+				B5AA8E0D29A11B9E00B808F5 /* Tours.storyboard */,
+			);
+			path = Tours;
+			sourceTree = "<group>";
+		};
 		B846DA736BE5020AA23C827B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,6 +463,7 @@
 				B5AA8E0929A1134200B808F5 /* Filters.storyboard in Resources */,
 				B539B5D029A098AC004B38D9 /* mastercard.json in Resources */,
 				B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */,
+				B5AA8E1029A11B9E00B808F5 /* Tours.storyboard in Resources */,
 				B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */,
 				B555B39329A0F7F5007DF10D /* Fav.storyboard in Resources */,
 				B5AA8E0129A10B2C00B808F5 /* Profile.storyboard in Resources */,
@@ -524,6 +542,7 @@
 				B539B5AA29A0986B004B38D9 /* UIColor.swift in Sources */,
 				B539B5C529A0986B004B38D9 /* AnalyticsEvent.swift in Sources */,
 				B539B5B829A0986B004B38D9 /* RPicker.swift in Sources */,
+				B5AA8E0F29A11B9E00B808F5 /* ToursView.swift in Sources */,
 				B539B5BB29A0986B004B38D9 /* Int.swift in Sources */,
 				B539B5CD29A0986B004B38D9 /* AnalyticsManager.swift in Sources */,
 				B539B5EC29A09DCA004B38D9 /* Popup.swift in Sources */,
@@ -534,6 +553,7 @@
 				B539B5B929A0986B004B38D9 /* AlefData.swift in Sources */,
 				B5AA8DFB29A1079600B808F5 /* NotificationVC.swift in Sources */,
 				B539B55729A09770004B38D9 /* MainVC.swift in Sources */,
+				B5AA8E0E29A11B9E00B808F5 /* ToursVC.swift in Sources */,
 				B539B5C729A0986B004B38D9 /* UILabel.swift in Sources */,
 				B539B5A229A0986B004B38D9 /* Date.swift in Sources */,
 				B539B55329A09770004B38D9 /* AppDelegate.swift in Sources */,
