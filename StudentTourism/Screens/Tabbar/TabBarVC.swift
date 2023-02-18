@@ -27,7 +27,7 @@ final class TabBarVC: UITabBarController, UITabBarControllerDelegate {
         let notifyVC = NotificationVC.instantiate()!
         notifyVC.tabBarItem = UITabBarItem(title: nil, image: Asset.Assets.notifyTab.image, tag: 3)
         
-        let profileVC = MainVC.instantiate()!
+        let profileVC = ProfileVC.instantiate()!
         profileVC.tabBarItem = UITabBarItem(title: nil, image: Asset.Assets.profileTab.image, tag: 4)
         
         viewControllers = [ UINavigationController(rootViewController: mainVC),

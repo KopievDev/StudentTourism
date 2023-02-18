@@ -62,6 +62,9 @@
 		B5AA8DF929A1079600B808F5 /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8DF629A1079500B808F5 /* Notification.storyboard */; };
 		B5AA8DFA29A1079600B808F5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DF729A1079500B808F5 /* NotificationView.swift */; };
 		B5AA8DFB29A1079600B808F5 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DF829A1079500B808F5 /* NotificationVC.swift */; };
+		B5AA8DFD29A10B1F00B808F5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DFC29A10B1F00B808F5 /* ProfileVC.swift */; };
+		B5AA8DFF29A10B2700B808F5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8DFE29A10B2700B808F5 /* ProfileView.swift */; };
+		B5AA8E0129A10B2C00B808F5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E0029A10B2C00B808F5 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -137,6 +140,9 @@
 		B5AA8DF629A1079500B808F5 /* Notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
 		B5AA8DF729A1079500B808F5 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		B5AA8DF829A1079500B808F5 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		B5AA8DFC29A10B1F00B808F5 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		B5AA8DFE29A10B2700B808F5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B5AA8E0029A10B2C00B808F5 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,11 +209,12 @@
 		B539B56729A09820004B38D9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				B5AA8DEE29A105B800B808F5 /* BookVC */,
+				B5AA8DEE29A105B800B808F5 /* Book */,
 				B555B39429A0F7FA007DF10D /* Fav */,
 				B539B5E529A09A20004B38D9 /* LaunchScreen */,
 				B539B5E629A09A2B004B38D9 /* Main */,
-				B5AA8DF529A1079500B808F5 /* NotifyVC */,
+				B5AA8DF529A1079500B808F5 /* Notify */,
+				B5AA8E0229A10D5C00B808F5 /* Profile */,
 				B555B38D29A0F7C9007DF10D /* Tabbar */,
 			);
 			path = Screens;
@@ -317,24 +324,34 @@
 			path = Fav;
 			sourceTree = "<group>";
 		};
-		B5AA8DEE29A105B800B808F5 /* BookVC */ = {
+		B5AA8DEE29A105B800B808F5 /* Book */ = {
 			isa = PBXGroup;
 			children = (
 				B5AA8DEF29A105B900B808F5 /* BookVC.swift */,
 				B5AA8DF029A105B900B808F5 /* BookView.swift */,
 				B5AA8DF129A105B900B808F5 /* Book.storyboard */,
 			);
-			path = BookVC;
+			path = Book;
 			sourceTree = "<group>";
 		};
-		B5AA8DF529A1079500B808F5 /* NotifyVC */ = {
+		B5AA8DF529A1079500B808F5 /* Notify */ = {
 			isa = PBXGroup;
 			children = (
 				B5AA8DF629A1079500B808F5 /* Notification.storyboard */,
 				B5AA8DF729A1079500B808F5 /* NotificationView.swift */,
 				B5AA8DF829A1079500B808F5 /* NotificationVC.swift */,
 			);
-			path = NotifyVC;
+			path = Notify;
+			sourceTree = "<group>";
+		};
+		B5AA8E0229A10D5C00B808F5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA8DFC29A10B1F00B808F5 /* ProfileVC.swift */,
+				B5AA8DFE29A10B2700B808F5 /* ProfileView.swift */,
+				B5AA8E0029A10B2C00B808F5 /* Profile.storyboard */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		B846DA736BE5020AA23C827B /* Frameworks */ = {
@@ -413,6 +430,7 @@
 				B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */,
 				B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */,
 				B555B39329A0F7F5007DF10D /* Fav.storyboard in Resources */,
+				B5AA8E0129A10B2C00B808F5 /* Profile.storyboard in Resources */,
 				B539B55A29A09770004B38D9 /* Main.storyboard in Resources */,
 				B5AA8DF429A105B900B808F5 /* Book.storyboard in Resources */,
 			);
@@ -500,6 +518,7 @@
 				B539B5C729A0986B004B38D9 /* UILabel.swift in Sources */,
 				B539B5A229A0986B004B38D9 /* Date.swift in Sources */,
 				B539B55329A09770004B38D9 /* AppDelegate.swift in Sources */,
+				B5AA8DFD29A10B1F00B808F5 /* ProfileVC.swift in Sources */,
 				B539B5B729A0986B004B38D9 /* URLSessionConfiguration.swift in Sources */,
 				B539B5E829A09ABB004B38D9 /* FieldView.swift in Sources */,
 				B539B5C429A0986B004B38D9 /* UIImageView.swift in Sources */,
@@ -523,6 +542,7 @@
 				B539B56A29A09854004B38D9 /* AppController.swift in Sources */,
 				B555B38F29A0F7E2007DF10D /* FavVC.swift in Sources */,
 				B539B5C029A0986B004B38D9 /* String.swift in Sources */,
+				B5AA8DFF29A10B2700B808F5 /* ProfileView.swift in Sources */,
 				B539B5AB29A0986B004B38D9 /* DocumentPicker.swift in Sources */,
 				B539B5CA29A0986B004B38D9 /* ButtonPlus.swift in Sources */,
 				B539B5A429A0986B004B38D9 /* PickerManager.swift in Sources */,

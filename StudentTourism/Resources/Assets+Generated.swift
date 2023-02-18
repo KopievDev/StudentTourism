@@ -29,6 +29,7 @@ internal enum Asset {
     internal static let bookTab = ImageAsset(name: "book_tab")
     internal static let calendar = ImageAsset(name: "calendar")
     internal static let dacha = ImageAsset(name: "dacha")
+    internal static let exit = ImageAsset(name: "exit")
     internal static let favTab = ImageAsset(name: "fav_tab")
     internal static let filter = ImageAsset(name: "filter")
     internal static let geo = ImageAsset(name: "geo")
