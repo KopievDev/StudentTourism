@@ -19,6 +19,25 @@ class ProfileVC: BaseVC {
 }
 //MARK: - Actions -
 private extension ProfileVC {
+    @IBAction func didTapOwnData(button: UIButton) {
+        Haptic.selection()
+    }
+    
+    @IBAction func didTapLanguage(button: UIButton) {
+        Haptic.selection()
+    }
+    
+    @IBAction func didTapPay(button: UIButton) {
+        Haptic.selection()
+    }
+    
+    @IBAction func didTapSciense(button: UIButton) {
+        Haptic.selection()
+    }
+    
+    @IBAction func didTapEvents(button: UIButton) {
+        Haptic.selection()
+    }
     
 }
 //MARK: - Helpers -

@@ -33,6 +33,7 @@ internal enum Asset {
     internal static let favTab = ImageAsset(name: "fav_tab")
     internal static let filter = ImageAsset(name: "filter")
     internal static let geo = ImageAsset(name: "geo")
+    internal static let global = ImageAsset(name: "global")
     internal static let heart = ImageAsset(name: "heart")
     internal static let imgKurskCell = ImageAsset(name: "img_kursk_cell")
     internal static let imgMoscowCell = ImageAsset(name: "img_moscow_cell")
@@ -40,12 +41,15 @@ internal enum Asset {
     internal static let imgValskCell = ImageAsset(name: "img_valsk_cell")
     internal static let mainTab = ImageAsset(name: "main_tab")
     internal static let map = ImageAsset(name: "map")
+    internal static let microscope = ImageAsset(name: "microscope")
     internal static let notifyTab = ImageAsset(name: "notify_tab")
     internal static let profileTab = ImageAsset(name: "profile_tab")
     internal static let rick = ImageAsset(name: "rick")
     internal static let search = ImageAsset(name: "search")
     internal static let star = ImageAsset(name: "star")
+    internal static let userEdit = ImageAsset(name: "user-edit")
     internal static let user = ImageAsset(name: "user")
+    internal static let wallet = ImageAsset(name: "wallet")
   }
   internal enum Colors {
     internal static let sBackground = ColorAsset(name: "sBackground")
