@@ -55,6 +55,11 @@
                                                                 <color key="textColor" name="sBlack"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <textInputTraits key="textInputTraits"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                        <color key="value" name="sGray"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R08-9K-zMu">
                                                                 <rect key="frame" x="321" y="16" width="24" height="24"/>
@@ -64,6 +69,9 @@
                                                                 </constraints>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="filter"/>
+                                                                <connections>
+                                                                    <action selector="didTapFiltersWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="dwD-lp-iWk"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" name="sBackground"/>
@@ -622,6 +630,9 @@
         </namedColor>
         <namedColor name="sBlack">
             <color red="0.12941176470588237" green="0.12941176470588237" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="sGray">
+            <color red="0.47843137254901963" green="0.47843137254901963" blue="0.47843137254901963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="sGreen">
             <color red="0.0" green="0.63137254901960782" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

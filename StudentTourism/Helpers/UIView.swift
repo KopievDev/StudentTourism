@@ -1089,3 +1089,12 @@ extension NSLayoutConstraint {
         return NSLayoutConstraint(item: self.firstItem!, attribute: self.firstAttribute, relatedBy: self.relation, toItem: self.secondItem, attribute: self.secondAttribute, multiplier: multiplier, constant: self.constant)
     }
 }
+
+extension UITextField {
+    
+    @IBInspectable var placeholderColor: UIColor? {
+        set { attributedPlaceholder = placeholder?.withAttr(color: newValue ?? Asset.Colors.sGray.color) }
+        
+        get { self.placeholderColor }
+    }
+}
