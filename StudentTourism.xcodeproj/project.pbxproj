@@ -7,23 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4829701838464BC2B85CCA /* Pods_StudentTourism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155F8DA0FDF6F8A8B17D3E9 /* Pods_StudentTourism.framework */; };
 		B539B55329A09770004B38D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B55229A09770004B38D9 /* AppDelegate.swift */; };
 		B539B55529A09770004B38D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B55429A09770004B38D9 /* SceneDelegate.swift */; };
-		B539B55729A09770004B38D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B55629A09770004B38D9 /* ViewController.swift */; };
+		B539B55729A09770004B38D9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B55629A09770004B38D9 /* MainVC.swift */; };
 		B539B55A29A09770004B38D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539B55829A09770004B38D9 /* Main.storyboard */; };
 		B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B539B55B29A09771004B38D9 /* Assets.xcassets */; };
 		B539B55F29A09771004B38D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B539B55D29A09771004B38D9 /* LaunchScreen.storyboard */; };
+		B539B56A29A09854004B38D9 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B56929A09854004B38D9 /* AppController.swift */; };
+		B539B5A129A0986B004B38D9 /* Debugble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B56C29A0986B004B38D9 /* Debugble.swift */; };
+		B539B5A229A0986B004B38D9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B56D29A0986B004B38D9 /* Date.swift */; };
+		B539B5A329A0986B004B38D9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B56E29A0986B004B38D9 /* UIView.swift */; };
+		B539B5A429A0986B004B38D9 /* PickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B56F29A0986B004B38D9 /* PickerManager.swift */; };
+		B539B5A829A0986B004B38D9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B57429A0986B004B38D9 /* Alert.swift */; };
+		B539B5AA29A0986B004B38D9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B57629A0986B004B38D9 /* UIColor.swift */; };
+		B539B5AB29A0986B004B38D9 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B57729A0986B004B38D9 /* DocumentPicker.swift */; };
+		B539B5AC29A0986B004B38D9 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B57829A0986B004B38D9 /* NotificationCenter.swift */; };
+		B539B5B729A0986B004B38D9 /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58729A0986B004B38D9 /* URLSessionConfiguration.swift */; };
+		B539B5B829A0986B004B38D9 /* RPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58829A0986B004B38D9 /* RPicker.swift */; };
+		B539B5B929A0986B004B38D9 /* AlefData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58929A0986B004B38D9 /* AlefData.swift */; };
+		B539B5BA29A0986B004B38D9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58A29A0986B004B38D9 /* Loader.swift */; };
+		B539B5BB29A0986B004B38D9 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58B29A0986B004B38D9 /* Int.swift */; };
+		B539B5BC29A0986B004B38D9 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58C29A0986B004B38D9 /* Storyboarded.swift */; };
+		B539B5BE29A0986B004B38D9 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B58E29A0986B004B38D9 /* UITableViewCell.swift */; };
+		B539B5C029A0986B004B38D9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59029A0986B004B38D9 /* String.swift */; };
+		B539B5C129A0986B004B38D9 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59129A0986B004B38D9 /* UserDefaults.swift */; };
+		B539B5C229A0986B004B38D9 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59229A0986B004B38D9 /* DataSource.swift */; };
+		B539B5C429A0986B004B38D9 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59429A0986B004B38D9 /* UIImageView.swift */; };
+		B539B5C529A0986B004B38D9 /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59529A0986B004B38D9 /* AnalyticsEvent.swift */; };
+		B539B5C729A0986B004B38D9 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59829A0986B004B38D9 /* UILabel.swift */; };
+		B539B5C829A0986B004B38D9 /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59929A0986B004B38D9 /* UIAplication.swift */; };
+		B539B5CA29A0986B004B38D9 /* ButtonPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59C29A0986B004B38D9 /* ButtonPlus.swift */; };
+		B539B5CC29A0986B004B38D9 /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59E29A0986B004B38D9 /* Notify.swift */; };
+		B539B5CD29A0986B004B38D9 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B59F29A0986B004B38D9 /* AnalyticsManager.swift */; };
+		B539B5CE29A0986B004B38D9 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5A029A0986B004B38D9 /* Calendar.swift */; };
+		B539B5D029A098AC004B38D9 /* mastercard.json in Resources */ = {isa = PBXBuildFile; fileRef = B539B5CF29A098AC004B38D9 /* mastercard.json */; };
+		B539B5D729A09930004B38D9 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5D229A09930004B38D9 /* CollectionView.swift */; };
+		B539B5D829A09930004B38D9 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5D329A09930004B38D9 /* BaseVC.swift */; };
+		B539B5D929A09930004B38D9 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5D429A09930004B38D9 /* XibView.swift */; };
+		B539B5DB29A09930004B38D9 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5D629A09930004B38D9 /* BaseView.swift */; };
+		B539B5E429A099A3004B38D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5E329A099A3004B38D9 /* MainView.swift */; };
+		B539B5E829A09ABB004B38D9 /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5E729A09ABB004B38D9 /* FieldView.swift */; };
+		B539B5EA29A09B45004B38D9 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5E929A09B45004B38D9 /* EmptyView.swift */; };
+		B539B5EC29A09DCA004B38D9 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5EB29A09DCA004B38D9 /* Popup.swift */; };
+		B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B555B38229A0A12A007DF10D /* Colors.xcassets */; };
+		B555B38629A0A719007DF10D /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B38529A0A719007DF10D /* Assets+Generated.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B555B38929A0A7EC007DF10D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		13BE02465C503DA3BC526CF5 /* Pods-StudentTourism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentTourism.debug.xcconfig"; path = "Target Support Files/Pods-StudentTourism/Pods-StudentTourism.debug.xcconfig"; sourceTree = "<group>"; };
+		77F104191579C7C6C407E8AC /* Pods-StudentTourism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentTourism.release.xcconfig"; path = "Target Support Files/Pods-StudentTourism/Pods-StudentTourism.release.xcconfig"; sourceTree = "<group>"; };
+		9155F8DA0FDF6F8A8B17D3E9 /* Pods_StudentTourism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentTourism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B539B54F29A09770004B38D9 /* StudentTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B539B55229A09770004B38D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B539B55429A09770004B38D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B539B55629A09770004B38D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B539B55629A09770004B38D9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		B539B55929A09770004B38D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B539B55B29A09771004B38D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B539B55E29A09771004B38D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B539B56029A09771004B38D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B539B56929A09854004B38D9 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		B539B56C29A0986B004B38D9 /* Debugble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugble.swift; sourceTree = "<group>"; };
+		B539B56D29A0986B004B38D9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B539B56E29A0986B004B38D9 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B539B56F29A0986B004B38D9 /* PickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerManager.swift; sourceTree = "<group>"; };
+		B539B57429A0986B004B38D9 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B539B57629A0986B004B38D9 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B539B57729A0986B004B38D9 /* DocumentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		B539B57829A0986B004B38D9 /* NotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		B539B58729A0986B004B38D9 /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
+		B539B58829A0986B004B38D9 /* RPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPicker.swift; sourceTree = "<group>"; };
+		B539B58929A0986B004B38D9 /* AlefData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlefData.swift; sourceTree = "<group>"; };
+		B539B58A29A0986B004B38D9 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		B539B58B29A0986B004B38D9 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		B539B58C29A0986B004B38D9 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		B539B58E29A0986B004B38D9 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		B539B59029A0986B004B38D9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B539B59129A0986B004B38D9 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		B539B59229A0986B004B38D9 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		B539B59429A0986B004B38D9 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		B539B59529A0986B004B38D9 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		B539B59729A0986B004B38D9 /* Festa-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Festa-Bridging-Header.h"; sourceTree = "<group>"; };
+		B539B59829A0986B004B38D9 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		B539B59929A0986B004B38D9 /* UIAplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAplication.swift; sourceTree = "<group>"; };
+		B539B59C29A0986B004B38D9 /* ButtonPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPlus.swift; sourceTree = "<group>"; };
+		B539B59E29A0986B004B38D9 /* Notify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
+		B539B59F29A0986B004B38D9 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		B539B5A029A0986B004B38D9 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		B539B5CF29A098AC004B38D9 /* mastercard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mastercard.json; sourceTree = "<group>"; };
+		B539B5D229A09930004B38D9 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		B539B5D329A09930004B38D9 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		B539B5D429A09930004B38D9 /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		B539B5D629A09930004B38D9 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		B539B5E329A099A3004B38D9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B539B5E729A09ABB004B38D9 /* FieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		B539B5E929A09B45004B38D9 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		B539B5EB29A09DCA004B38D9 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		B555B38229A0A12A007DF10D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B555B38529A0A719007DF10D /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +124,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4829701838464BC2B85CCA /* Pods_StudentTourism.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385C61CE361827B51A91190C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13BE02465C503DA3BC526CF5 /* Pods-StudentTourism.debug.xcconfig */,
+				77F104191579C7C6C407E8AC /* Pods-StudentTourism.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B539B54629A09770004B38D9 = {
 			isa = PBXGroup;
 			children = (
 				B539B55129A09770004B38D9 /* StudentTourism */,
 				B539B55029A09770004B38D9 /* Products */,
+				385C61CE361827B51A91190C /* Pods */,
+				B846DA736BE5020AA23C827B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +161,126 @@
 		B539B55129A09770004B38D9 /* StudentTourism */ = {
 			isa = PBXGroup;
 			children = (
-				B539B55229A09770004B38D9 /* AppDelegate.swift */,
-				B539B55429A09770004B38D9 /* SceneDelegate.swift */,
-				B539B55629A09770004B38D9 /* ViewController.swift */,
-				B539B55829A09770004B38D9 /* Main.storyboard */,
-				B539B55B29A09771004B38D9 /* Assets.xcassets */,
-				B539B55D29A09771004B38D9 /* LaunchScreen.storyboard */,
-				B539B56029A09771004B38D9 /* Info.plist */,
+				B539B56629A09817004B38D9 /* App */,
+				B539B56729A09820004B38D9 /* Screens */,
+				B539B56B29A0986B004B38D9 /* Helpers */,
+				B539B56829A09830004B38D9 /* Resources */,
 			);
 			path = StudentTourism;
+			sourceTree = "<group>";
+		};
+		B539B56629A09817004B38D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B539B56929A09854004B38D9 /* AppController.swift */,
+				B539B55429A09770004B38D9 /* SceneDelegate.swift */,
+				B539B55229A09770004B38D9 /* AppDelegate.swift */,
+				B539B5D129A09930004B38D9 /* Base */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B539B56729A09820004B38D9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B539B5E629A09A2B004B38D9 /* Main */,
+				B539B5E529A09A20004B38D9 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B539B56829A09830004B38D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B555B38529A0A719007DF10D /* Assets+Generated.swift */,
+				B539B5CF29A098AC004B38D9 /* mastercard.json */,
+				B539B55B29A09771004B38D9 /* Assets.xcassets */,
+				B555B38229A0A12A007DF10D /* Colors.xcassets */,
+				B539B56029A09771004B38D9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B539B56B29A0986B004B38D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B539B56C29A0986B004B38D9 /* Debugble.swift */,
+				B539B56D29A0986B004B38D9 /* Date.swift */,
+				B539B56E29A0986B004B38D9 /* UIView.swift */,
+				B539B56F29A0986B004B38D9 /* PickerManager.swift */,
+				B539B57429A0986B004B38D9 /* Alert.swift */,
+				B539B57629A0986B004B38D9 /* UIColor.swift */,
+				B539B57729A0986B004B38D9 /* DocumentPicker.swift */,
+				B539B57829A0986B004B38D9 /* NotificationCenter.swift */,
+				B539B58729A0986B004B38D9 /* URLSessionConfiguration.swift */,
+				B539B58829A0986B004B38D9 /* RPicker.swift */,
+				B539B58929A0986B004B38D9 /* AlefData.swift */,
+				B539B58A29A0986B004B38D9 /* Loader.swift */,
+				B539B58B29A0986B004B38D9 /* Int.swift */,
+				B539B58C29A0986B004B38D9 /* Storyboarded.swift */,
+				B539B58E29A0986B004B38D9 /* UITableViewCell.swift */,
+				B539B59029A0986B004B38D9 /* String.swift */,
+				B539B59129A0986B004B38D9 /* UserDefaults.swift */,
+				B539B59229A0986B004B38D9 /* DataSource.swift */,
+				B539B59429A0986B004B38D9 /* UIImageView.swift */,
+				B539B59529A0986B004B38D9 /* AnalyticsEvent.swift */,
+				B539B59729A0986B004B38D9 /* Festa-Bridging-Header.h */,
+				B539B59829A0986B004B38D9 /* UILabel.swift */,
+				B539B59929A0986B004B38D9 /* UIAplication.swift */,
+				B539B59B29A0986B004B38D9 /* Views */,
+				B539B59E29A0986B004B38D9 /* Notify.swift */,
+				B539B59F29A0986B004B38D9 /* AnalyticsManager.swift */,
+				B539B5A029A0986B004B38D9 /* Calendar.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B539B59B29A0986B004B38D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B539B59C29A0986B004B38D9 /* ButtonPlus.swift */,
+				B539B5E729A09ABB004B38D9 /* FieldView.swift */,
+				B539B5E929A09B45004B38D9 /* EmptyView.swift */,
+				B539B5EB29A09DCA004B38D9 /* Popup.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B539B5D129A09930004B38D9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B539B5D229A09930004B38D9 /* CollectionView.swift */,
+				B539B5D329A09930004B38D9 /* BaseVC.swift */,
+				B539B5D429A09930004B38D9 /* XibView.swift */,
+				B539B5D629A09930004B38D9 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B539B5E529A09A20004B38D9 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B539B55D29A09771004B38D9 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B539B5E629A09A2B004B38D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B539B55629A09770004B38D9 /* MainVC.swift */,
+				B539B5E329A099A3004B38D9 /* MainView.swift */,
+				B539B55829A09770004B38D9 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B846DA736BE5020AA23C827B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9155F8DA0FDF6F8A8B17D3E9 /* Pods_StudentTourism.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +290,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B539B56329A09771004B38D9 /* Build configuration list for PBXNativeTarget "StudentTourism" */;
 			buildPhases = (
+				3E31C1E656BA209450130A14 /* [CP] Check Pods Manifest.lock */,
 				B539B54B29A09770004B38D9 /* Sources */,
 				B539B54C29A09770004B38D9 /* Frameworks */,
 				B539B54D29A09770004B38D9 /* Resources */,
+				C7ACAA0630F66B531132BAFD /* [CP] Embed Pods Frameworks */,
+				B555B38929A0A7EC007DF10D /* CopyFiles */,
+				B555B38A29A0A7F0007DF10D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,6 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B539B55F29A09771004B38D9 /* LaunchScreen.storyboard in Resources */,
+				B539B5D029A098AC004B38D9 /* mastercard.json in Resources */,
+				B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */,
 				B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */,
 				B539B55A29A09770004B38D9 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +355,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E31C1E656BA209450130A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudentTourism-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B555B38A29A0A7F0007DF10D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+		C7ACAA0630F66B531132BAFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudentTourism/Pods-StudentTourism-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudentTourism/Pods-StudentTourism-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudentTourism/Pods-StudentTourism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B539B54B29A09770004B38D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B539B55729A09770004B38D9 /* ViewController.swift in Sources */,
+				B539B5AA29A0986B004B38D9 /* UIColor.swift in Sources */,
+				B539B5C529A0986B004B38D9 /* AnalyticsEvent.swift in Sources */,
+				B539B5B829A0986B004B38D9 /* RPicker.swift in Sources */,
+				B539B5BB29A0986B004B38D9 /* Int.swift in Sources */,
+				B539B5CD29A0986B004B38D9 /* AnalyticsManager.swift in Sources */,
+				B539B5EC29A09DCA004B38D9 /* Popup.swift in Sources */,
+				B539B5C229A0986B004B38D9 /* DataSource.swift in Sources */,
+				B539B5B929A0986B004B38D9 /* AlefData.swift in Sources */,
+				B539B55729A09770004B38D9 /* MainVC.swift in Sources */,
+				B539B5C729A0986B004B38D9 /* UILabel.swift in Sources */,
+				B539B5A229A0986B004B38D9 /* Date.swift in Sources */,
 				B539B55329A09770004B38D9 /* AppDelegate.swift in Sources */,
+				B539B5B729A0986B004B38D9 /* URLSessionConfiguration.swift in Sources */,
+				B539B5E829A09ABB004B38D9 /* FieldView.swift in Sources */,
+				B539B5C429A0986B004B38D9 /* UIImageView.swift in Sources */,
+				B539B5A329A0986B004B38D9 /* UIView.swift in Sources */,
+				B539B5EA29A09B45004B38D9 /* EmptyView.swift in Sources */,
+				B539B5BA29A0986B004B38D9 /* Loader.swift in Sources */,
+				B539B5A829A0986B004B38D9 /* Alert.swift in Sources */,
+				B539B5E429A099A3004B38D9 /* MainView.swift in Sources */,
 				B539B55529A09770004B38D9 /* SceneDelegate.swift in Sources */,
+				B539B5C129A0986B004B38D9 /* UserDefaults.swift in Sources */,
+				B539B5D829A09930004B38D9 /* BaseVC.swift in Sources */,
+				B539B5CE29A0986B004B38D9 /* Calendar.swift in Sources */,
+				B555B38629A0A719007DF10D /* Assets+Generated.swift in Sources */,
+				B539B5A129A0986B004B38D9 /* Debugble.swift in Sources */,
+				B539B5CC29A0986B004B38D9 /* Notify.swift in Sources */,
+				B539B5C829A0986B004B38D9 /* UIAplication.swift in Sources */,
+				B539B5AC29A0986B004B38D9 /* NotificationCenter.swift in Sources */,
+				B539B5D729A09930004B38D9 /* CollectionView.swift in Sources */,
+				B539B56A29A09854004B38D9 /* AppController.swift in Sources */,
+				B539B5C029A0986B004B38D9 /* String.swift in Sources */,
+				B539B5AB29A0986B004B38D9 /* DocumentPicker.swift in Sources */,
+				B539B5CA29A0986B004B38D9 /* ButtonPlus.swift in Sources */,
+				B539B5A429A0986B004B38D9 /* PickerManager.swift in Sources */,
+				B539B5BC29A0986B004B38D9 /* Storyboarded.swift in Sources */,
+				B539B5DB29A09930004B38D9 /* BaseView.swift in Sources */,
+				B539B5D929A09930004B38D9 /* XibView.swift in Sources */,
+				B539B5BE29A0986B004B38D9 /* UITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +599,7 @@
 		};
 		B539B56429A09771004B38D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BE02465C503DA3BC526CF5 /* Pods-StudentTourism.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +607,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PFRDA29FJ8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StudentTourism/Info.plist;
+				INFOPLIST_FILE = StudentTourism/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +628,7 @@
 		};
 		B539B56529A09771004B38D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F104191579C7C6C407E8AC /* Pods-StudentTourism.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +636,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PFRDA29FJ8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StudentTourism/Info.plist;
+				INFOPLIST_FILE = StudentTourism/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainVC: BaseVC {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+}
+//MARK: - Actions -
+private extension MainVC {
+    
+}
+//MARK: - Helpers -
+private extension MainVC {
+    
 }
 
