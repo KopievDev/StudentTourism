@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="vRt-km-EYG">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="592"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="636"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kyu-OS-Y2m">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="60"/>
@@ -367,11 +367,42 @@
                                                     <constraint firstAttribute="trailing" secondItem="5Bp-Cv-WL9" secondAttribute="trailing" constant="16" id="sGq-wd-I8I"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbN-6a-b0C">
-                                                <rect key="frame" x="0.0" y="492" width="393" height="100"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbN-6a-b0C" customClass="EmptyView" customModule="StudentTourism" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="492" width="393" height="20"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="SBb-cy-FIA"/>
+                                                    <constraint firstAttribute="height" constant="20" id="SBb-cy-FIA"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="heightCnst" destination="SBb-cy-FIA" id="djd-u6-a1u"/>
+                                                    <outlet property="scrollView" destination="hli-oQ-qCx" id="vgB-qM-9kY"/>
+                                                </connections>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8e-OP-x9g">
+                                                <rect key="frame" x="0.0" y="512" width="393" height="124"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnc-jE-ygU">
+                                                        <rect key="frame" x="16" y="8" width="361" height="56"/>
+                                                        <color key="backgroundColor" name="sGreen"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="56" id="NKz-6p-EDL"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Применить"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="8"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="vnc-jE-ygU" firstAttribute="top" secondItem="w8e-OP-x9g" secondAttribute="top" constant="8" id="7rI-xn-5qc"/>
+                                                    <constraint firstItem="vnc-jE-ygU" firstAttribute="leading" secondItem="w8e-OP-x9g" secondAttribute="leading" constant="16" id="8dt-UB-OxV"/>
+                                                    <constraint firstAttribute="trailing" secondItem="vnc-jE-ygU" secondAttribute="trailing" constant="16" id="cmY-G1-CLr"/>
+                                                    <constraint firstAttribute="bottom" secondItem="vnc-jE-ygU" secondAttribute="bottom" constant="60" id="j0q-h3-9jv"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
