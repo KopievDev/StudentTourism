@@ -175,12 +175,23 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fez-gC-8LW">
+                                                    <rect key="frame" x="16" y="8" width="361" height="331"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <connections>
+                                                        <action selector="didTapTourWithButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="m4F-ua-HMa"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" name="sBackground"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="TeN-hO-wnm" secondAttribute="bottom" constant="16" id="ChD-SR-ALa"/>
                                                 <constraint firstItem="TeN-hO-wnm" firstAttribute="top" secondItem="nLm-ZM-4GC" secondAttribute="top" constant="8" id="PTX-Sw-iSM"/>
+                                                <constraint firstItem="fez-gC-8LW" firstAttribute="centerY" secondItem="TeN-hO-wnm" secondAttribute="centerY" id="ZEu-cJ-7rR"/>
                                                 <constraint firstItem="TeN-hO-wnm" firstAttribute="leading" secondItem="nLm-ZM-4GC" secondAttribute="leading" constant="16" id="dFr-6i-jfg"/>
+                                                <constraint firstItem="fez-gC-8LW" firstAttribute="width" secondItem="TeN-hO-wnm" secondAttribute="width" id="fo3-kc-5fe"/>
+                                                <constraint firstItem="fez-gC-8LW" firstAttribute="centerX" secondItem="TeN-hO-wnm" secondAttribute="centerX" id="g26-M2-1cd"/>
+                                                <constraint firstItem="fez-gC-8LW" firstAttribute="height" secondItem="TeN-hO-wnm" secondAttribute="height" id="ncf-QT-uPu"/>
                                                 <constraint firstAttribute="trailing" secondItem="TeN-hO-wnm" secondAttribute="trailing" constant="16" id="sAF-k3-wTK"/>
                                             </constraints>
                                         </tableViewCellContentView>

@@ -168,7 +168,7 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                             <connections>
-                                                                                <action selector="didTapTourWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="LIj-XW-dtn"/>
+                                                                                <action selector="didTapToursWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="lO9-JV-zAR"/>
                                                                             </connections>
                                                                         </button>
                                                                     </subviews>

@@ -19,7 +19,9 @@ class BookVC: BaseVC {
 }
 //MARK: - Actions -
 private extension BookVC {
-    
+    @IBAction func didTapTour(button: UIButton) {
+        Router.showVC(type: TourViewVC.self)
+    }
 }
 //MARK: - Helpers -
 private extension BookVC {

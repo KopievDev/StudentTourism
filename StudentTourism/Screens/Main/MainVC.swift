@@ -23,12 +23,16 @@ private extension MainVC {
         Router.showVC(type: FiltersVC.self)
     }
     
-    @IBAction func didTapTour(button: UIButton) {
+    @IBAction func didTapTours(button: UIButton) {
         Router.showVC(type: ToursVC.self) { vc in
             vc.set(title: "Беги к холмам")
         }
-
     }
+    
+    @IBAction func didTapTour(button: UIButton) {
+        Router.showVC(type: TourViewVC.self)
+    }
+    
 }
 //MARK: - Helpers -
 private extension MainVC {
