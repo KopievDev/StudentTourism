@@ -25,11 +25,11 @@
                                     <constraint firstAttribute="height" constant="200" id="rC3-EW-sSG"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u5Y-Rp-o6I">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5Y-Rp-o6I">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="2000"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="oDQ-aF-l6d">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1304.6666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1314.6666666666667"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ONJ-sA-kDE">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="181.66666666666666"/>
@@ -104,10 +104,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zah-If-uCU" customClass="BannerCollection" customModule="StudentTourism" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="181.66666666666663" width="393" height="250"/>
+                                                <rect key="frame" x="0.0" y="181.66666666666663" width="393" height="260"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aBJ-pS-edA">
-                                                        <rect key="frame" x="0.0" y="10" width="393" height="240"/>
+                                                        <rect key="frame" x="0.0" y="10" width="393" height="230"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oER-2d-OO9">
                                                             <size key="itemSize" width="379" height="227"/>
@@ -182,21 +182,30 @@
                                                             </collectionViewCell>
                                                         </cells>
                                                     </collectionView>
+                                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="FOV-Rc-eJo">
+                                                        <rect key="frame" x="138.66666666666666" y="240.00000000000003" width="115.66666666666666" height="19.999999999999972"/>
+                                                        <color key="pageIndicatorTintColor" name="sGreenBack"/>
+                                                        <color key="currentPageIndicatorTintColor" name="sGreen"/>
+                                                    </pageControl>
                                                 </subviews>
                                                 <color key="backgroundColor" name="sBackground"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="aBJ-pS-edA" secondAttribute="trailing" id="2sO-JB-c3o"/>
+                                                    <constraint firstAttribute="bottom" secondItem="FOV-Rc-eJo" secondAttribute="bottom" id="502-MG-UMo"/>
                                                     <constraint firstItem="aBJ-pS-edA" firstAttribute="top" secondItem="zah-If-uCU" secondAttribute="top" constant="10" id="5Fa-Gh-o4r"/>
-                                                    <constraint firstAttribute="bottom" secondItem="aBJ-pS-edA" secondAttribute="bottom" id="Hq4-dP-ZOt"/>
+                                                    <constraint firstItem="FOV-Rc-eJo" firstAttribute="top" secondItem="aBJ-pS-edA" secondAttribute="bottom" id="5nq-LC-MHx"/>
+                                                    <constraint firstAttribute="bottom" secondItem="aBJ-pS-edA" secondAttribute="bottom" constant="20" id="Hq4-dP-ZOt"/>
+                                                    <constraint firstItem="FOV-Rc-eJo" firstAttribute="centerX" secondItem="zah-If-uCU" secondAttribute="centerX" id="Io8-Jl-2wh"/>
                                                     <constraint firstItem="aBJ-pS-edA" firstAttribute="leading" secondItem="zah-If-uCU" secondAttribute="leading" id="Uig-Fu-HBd"/>
-                                                    <constraint firstAttribute="height" constant="250" id="VrP-9M-fSi"/>
+                                                    <constraint firstAttribute="height" constant="260" id="VrP-9M-fSi"/>
                                                 </constraints>
                                                 <connections>
                                                     <outlet property="collectionView" destination="aBJ-pS-edA" id="4v7-yF-N9b"/>
+                                                    <outlet property="pageControl" destination="FOV-Rc-eJo" id="AJQ-xj-EL5"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfr-WE-pi0">
-                                                <rect key="frame" x="0.0" y="431.66666666666669" width="393" height="43"/>
+                                                <rect key="frame" x="0.0" y="441.66666666666669" width="393" height="43"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Топ городов" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xu-Ul-Mmz">
                                                         <rect key="frame" x="15.999999999999993" y="4" width="118.33333333333331" height="35"/>
@@ -227,7 +236,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUV-bg-Mo8" customClass="CityCollection" customModule="StudentTourism" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="474.66666666666674" width="393" height="240"/>
+                                                <rect key="frame" x="0.0" y="484.66666666666674" width="393" height="240"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MnO-Pu-FNh">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="240"/>
@@ -318,7 +327,7 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6N-gH-cXP">
-                                                <rect key="frame" x="0.0" y="714.66666666666663" width="393" height="55"/>
+                                                <rect key="frame" x="0.0" y="724.66666666666663" width="393" height="55"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Популярные отели" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nj9-Sd-shN">
                                                         <rect key="frame" x="16" y="21.666666666666742" width="181" height="24"/>
@@ -348,7 +357,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QDZ-Rd-GBJ" customClass="CityCollection" customModule="StudentTourism" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="769.66666666666663" width="393" height="240"/>
+                                                <rect key="frame" x="0.0" y="779.66666666666663" width="393" height="240"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3Ol-C8-zuH">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="240"/>
@@ -439,7 +448,7 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n0W-3e-zIF">
-                                                <rect key="frame" x="0.0" y="1009.6666666666665" width="393" height="55"/>
+                                                <rect key="frame" x="0.0" y="1019.6666666666665" width="393" height="55"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Акции" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irg-kT-5PS">
                                                         <rect key="frame" x="16" y="21.666666666666629" width="61" height="24"/>
@@ -469,7 +478,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ng-1m-Uqe" customClass="CityCollection" customModule="StudentTourism" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="1064.6666666666667" width="393" height="240"/>
+                                                <rect key="frame" x="0.0" y="1074.6666666666667" width="393" height="240"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Z9d-v5-0dm">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="240"/>
