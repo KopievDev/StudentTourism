@@ -52,6 +52,7 @@
 		B539B5EC29A09DCA004B38D9 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539B5EB29A09DCA004B38D9 /* Popup.swift */; };
 		B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B555B38229A0A12A007DF10D /* Colors.xcassets */; };
 		B555B38629A0A719007DF10D /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B38529A0A719007DF10D /* Assets+Generated.swift */; };
+		B555B38C29A0F478007DF10D /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B38B29A0F478007DF10D /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,6 +118,7 @@
 		B539B5EB29A09DCA004B38D9 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
 		B555B38229A0A12A007DF10D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B555B38529A0A719007DF10D /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
+		B555B38B29A0F478007DF10D /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			children = (
 				B539B5E629A09A2B004B38D9 /* Main */,
 				B539B5E529A09A20004B38D9 /* LaunchScreen */,
+				B555B38B29A0F478007DF10D /* TabBarVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				B539B5EA29A09B45004B38D9 /* EmptyView.swift in Sources */,
 				B539B5BA29A0986B004B38D9 /* Loader.swift in Sources */,
 				B539B5A829A0986B004B38D9 /* Alert.swift in Sources */,
+				B555B38C29A0F478007DF10D /* TabBarVC.swift in Sources */,
 				B539B5E429A099A3004B38D9 /* MainView.swift in Sources */,
 				B539B55529A09770004B38D9 /* SceneDelegate.swift in Sources */,
 				B539B5C129A0986B004B38D9 /* UserDefaults.swift in Sources */,

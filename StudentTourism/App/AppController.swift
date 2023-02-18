@@ -53,7 +53,7 @@ private extension AppController {
     
     // MARK: - Initial screen
     func setupInitialViewController() {
-        window?.rootViewController = UINavigationController(rootViewController: MainVC.instantiate()!)
+        window?.rootViewController = UINavigationController(rootViewController:TabBarVC())
         window?.makeKeyAndVisible()
     }
 }
