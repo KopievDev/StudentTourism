@@ -46,14 +46,25 @@ extension AppController: AppControllerProtocol {
 // MARK: Private
 private extension AppController {
     func setupAppearance() {
-//        UIBarButtonItem.appearance().tintColor = .fDarkGray
-//        UITextField.appearance().tintColor = .fDarkGray
-//        UITextView.appearance().tintColor = .fDarkGray
+        if #available(iOS 13.0, *) {
+            let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
+            tabBarAppearance.configureWithDefaultBackground()
+            tabBarAppearance.backgroundColor = Asset.Colors.sSecondary.color
+            UITabBar.appearance().standardAppearance = tabBarAppearance
+            let navBarAppearance: UINavigationBarAppearance = UINavigationBarAppearance()
+            navBarAppearance.configureWithDefaultBackground()
+            navBarAppearance.backgroundColor = Asset.Colors.sBackground.color
+            UINavigationBar.appearance().standardAppearance = navBarAppearance
+            if #available(iOS 15.0, *) {
+                UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
+                UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
+            }
+        }
     }
     
     // MARK: - Initial screen
     func setupInitialViewController() {
-        window?.rootViewController = UINavigationController(rootViewController:TabBarVC())
+        window?.rootViewController = TabBarVC()
         window?.makeKeyAndVisible()
     }
 }

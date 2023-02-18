@@ -53,6 +53,9 @@
 		B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B555B38229A0A12A007DF10D /* Colors.xcassets */; };
 		B555B38629A0A719007DF10D /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B38529A0A719007DF10D /* Assets+Generated.swift */; };
 		B555B38C29A0F478007DF10D /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B38B29A0F478007DF10D /* TabBarVC.swift */; };
+		B555B38F29A0F7E2007DF10D /* FavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B38E29A0F7E2007DF10D /* FavVC.swift */; };
+		B555B39129A0F7EF007DF10D /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555B39029A0F7EF007DF10D /* FavView.swift */; };
+		B555B39329A0F7F5007DF10D /* Fav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B555B39229A0F7F5007DF10D /* Fav.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +122,9 @@
 		B555B38229A0A12A007DF10D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B555B38529A0A719007DF10D /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
 		B555B38B29A0F478007DF10D /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		B555B38E29A0F7E2007DF10D /* FavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavVC.swift; sourceTree = "<group>"; };
+		B555B39029A0F7EF007DF10D /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		B555B39229A0F7F5007DF10D /* Fav.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fav.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +193,8 @@
 			children = (
 				B539B5E629A09A2B004B38D9 /* Main */,
 				B539B5E529A09A20004B38D9 /* LaunchScreen */,
-				B555B38B29A0F478007DF10D /* TabBarVC.swift */,
+				B555B38D29A0F7C9007DF10D /* Tabbar */,
+				B555B39429A0F7FA007DF10D /* Fav */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -278,6 +285,24 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		B555B38D29A0F7C9007DF10D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				B555B38B29A0F478007DF10D /* TabBarVC.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		B555B39429A0F7FA007DF10D /* Fav */ = {
+			isa = PBXGroup;
+			children = (
+				B555B38E29A0F7E2007DF10D /* FavVC.swift */,
+				B555B39029A0F7EF007DF10D /* FavView.swift */,
+				B555B39229A0F7F5007DF10D /* Fav.storyboard */,
+			);
+			path = Fav;
+			sourceTree = "<group>";
+		};
 		B846DA736BE5020AA23C827B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +377,7 @@
 				B539B5D029A098AC004B38D9 /* mastercard.json in Resources */,
 				B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */,
 				B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */,
+				B555B39329A0F7F5007DF10D /* Fav.storyboard in Resources */,
 				B539B55A29A09770004B38D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B555B39129A0F7EF007DF10D /* FavView.swift in Sources */,
 				B539B5AA29A0986B004B38D9 /* UIColor.swift in Sources */,
 				B539B5C529A0986B004B38D9 /* AnalyticsEvent.swift in Sources */,
 				B539B5B829A0986B004B38D9 /* RPicker.swift in Sources */,
@@ -454,6 +481,7 @@
 				B539B5AC29A0986B004B38D9 /* NotificationCenter.swift in Sources */,
 				B539B5D729A09930004B38D9 /* CollectionView.swift in Sources */,
 				B539B56A29A09854004B38D9 /* AppController.swift in Sources */,
+				B555B38F29A0F7E2007DF10D /* FavVC.swift in Sources */,
 				B539B5C029A0986B004B38D9 /* String.swift in Sources */,
 				B539B5AB29A0986B004B38D9 /* DocumentPicker.swift in Sources */,
 				B539B5CA29A0986B004B38D9 /* ButtonPlus.swift in Sources */,

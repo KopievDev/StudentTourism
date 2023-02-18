@@ -893,7 +893,7 @@ extension NSLayoutConstraint {
 
 extension UILabel {
     
-    convenience init(title: String? = nil, font: UIFont? = .systemFont(ofSize: 12), color: UIColor = .fDarkGray,
+    convenience init(title: String? = nil, font: UIFont? = .systemFont(ofSize: 12), color: UIColor = Asset.Colors.sBlack.color,
                      alignment: NSTextAlignment = .left, lines: Int = 1, withConstraints: Bool = false) {
         self.init(frame: CGRect.zero)
         self.font = font

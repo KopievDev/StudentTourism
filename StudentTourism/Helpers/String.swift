@@ -110,7 +110,7 @@ extension String {
 }
 
 extension String {
-    func withAttr(font: UIFont? = UIFont.systemFont(ofSize: 16), color: UIColor = .fDarkGray, withUnderline: Bool = false) -> NSMutableAttributedString {
+    func withAttr(font: UIFont? = UIFont.systemFont(ofSize: 16), color: UIColor = Asset.Colors.sBlack.color, withUnderline: Bool = false) -> NSMutableAttributedString {
         let attributedString = NSMutableAttributedString()
         
             attributedString.append(
