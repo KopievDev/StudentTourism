@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hli-oQ-qCx">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hli-oQ-qCx">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="2000"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="vRt-km-EYG">
@@ -722,8 +722,6 @@
                                     <constraint firstItem="vRt-km-EYG" firstAttribute="leading" secondItem="hli-oQ-qCx" secondAttribute="leading" id="u09-aG-47D"/>
                                     <constraint firstAttribute="bottom" secondItem="vRt-km-EYG" secondAttribute="bottom" id="u6j-hT-4Yv"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="tw6-ZG-gyh"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="Bph-Pv-U7Y"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
