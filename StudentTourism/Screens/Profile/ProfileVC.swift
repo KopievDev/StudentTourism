@@ -39,6 +39,11 @@ private extension ProfileVC {
         Haptic.selection()
     }
     
+    @IBAction func didTapCup(button: UIButton) {
+        Haptic.selection()
+        Router.showVC(type: CupVC.self)
+    }
+    
 }
 //MARK: - Helpers -
 private extension ProfileVC {

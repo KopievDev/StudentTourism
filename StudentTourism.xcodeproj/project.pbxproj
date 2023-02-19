@@ -77,6 +77,9 @@
 		B5AA8E1929A1E9B200B808F5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E1829A1E9B200B808F5 /* WebView.swift */; };
 		B5AA8E1B29A1E9C300B808F5 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E1A29A1E9C300B808F5 /* Web.storyboard */; };
 		B5AA8E1D29A1E9CB00B808F5 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E1C29A1E9CB00B808F5 /* WebVC.swift */; };
+		B5AA8E2329A1F49800B808F5 /* Cup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E2029A1F49800B808F5 /* Cup.storyboard */; };
+		B5AA8E2429A1F49800B808F5 /* CupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E2129A1F49800B808F5 /* CupVC.swift */; };
+		B5AA8E2529A1F49800B808F5 /* CupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E2229A1F49800B808F5 /* CupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +170,9 @@
 		B5AA8E1829A1E9B200B808F5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		B5AA8E1A29A1E9C300B808F5 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
 		B5AA8E1C29A1E9CB00B808F5 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		B5AA8E2029A1F49800B808F5 /* Cup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cup.storyboard; sourceTree = "<group>"; };
+		B5AA8E2129A1F49800B808F5 /* CupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CupVC.swift; sourceTree = "<group>"; };
+		B5AA8E2229A1F49800B808F5 /* CupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +239,7 @@
 		B539B56729A09820004B38D9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B5AA8E1F29A1F49800B808F5 /* Cup */,
 				B5AA8E1E29A1EAF300B808F5 /* Web */,
 				B5AA8DEE29A105B800B808F5 /* Book */,
 				B555B39429A0F7FA007DF10D /* Fav */,
@@ -422,6 +429,16 @@
 			path = Web;
 			sourceTree = "<group>";
 		};
+		B5AA8E1F29A1F49800B808F5 /* Cup */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA8E2029A1F49800B808F5 /* Cup.storyboard */,
+				B5AA8E2129A1F49800B808F5 /* CupVC.swift */,
+				B5AA8E2229A1F49800B808F5 /* CupView.swift */,
+			);
+			path = Cup;
+			sourceTree = "<group>";
+		};
 		B846DA736BE5020AA23C827B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,6 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B539B55F29A09771004B38D9 /* LaunchScreen.storyboard in Resources */,
+				B5AA8E2329A1F49800B808F5 /* Cup.storyboard in Resources */,
 				B5AA8DF929A1079600B808F5 /* Notification.storyboard in Resources */,
 				B5AA8E0929A1134200B808F5 /* Filters.storyboard in Resources */,
 				B5AA8E1529A120E100B808F5 /* TourView.storyboard in Resources */,
@@ -608,7 +626,9 @@
 				B555B38C29A0F478007DF10D /* TabBarVC.swift in Sources */,
 				B539B5E429A099A3004B38D9 /* MainView.swift in Sources */,
 				B539B55529A09770004B38D9 /* SceneDelegate.swift in Sources */,
+				B5AA8E2429A1F49800B808F5 /* CupVC.swift in Sources */,
 				B539B5C129A0986B004B38D9 /* UserDefaults.swift in Sources */,
+				B5AA8E2529A1F49800B808F5 /* CupView.swift in Sources */,
 				B539B5D829A09930004B38D9 /* BaseVC.swift in Sources */,
 				B539B5CE29A0986B004B38D9 /* Calendar.swift in Sources */,
 				B555B38629A0A719007DF10D /* Assets+Generated.swift in Sources */,
