@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" customClass="TourViewVC" customModule="StudentTourism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" customClass="TourViewView" customModule="StudentTourism" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="2200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="2400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hli-oQ-qCx">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="2200"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="2400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="vRt-km-EYG">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="2294.3333333333335"/>
@@ -970,6 +970,9 @@
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="withAnimate" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="didTapPayWithButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BsG-68-4hQ"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="450 ₽ / ночь" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXt-VM-cy6">
                                                         <rect key="frame" x="16" y="26" width="215" height="24"/>
@@ -1015,13 +1018,21 @@
                             <outlet property="roomCollection" destination="des-iN-5yM" id="jFH-ix-Gb8"/>
                         </connections>
                     </view>
-                    <size key="freeformSize" width="393" height="2200"/>
+                    <size key="freeformSize" width="393" height="2400"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139.69465648854961" y="-23.239436619718312"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Xaa-jL-W9L">
+            <size key="intrinsicContentSize" width="82" height="32"/>
+        </designable>
+        <designable name="s44-Hs-0jY">
+            <size key="intrinsicContentSize" width="138" height="32"/>
+        </designable>
+    </designables>
     <resources>
         <image name="checked" width="20" height="20"/>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>

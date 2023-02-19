@@ -25,7 +25,11 @@ class TourViewVC: BaseVC {
 }
 //MARK: - Actions -
 private extension TourViewVC {
-    
+    @IBAction func didTapPay(button: UIButton) {
+        Router.showVC(type: WebVC.self) {
+            $0.state[s:.url] = "https://mustdev.ru/payment/index.html"
+        }
+    }
 }
 //MARK: - Helpers -
 private extension TourViewVC {

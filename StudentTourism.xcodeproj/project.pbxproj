@@ -74,6 +74,9 @@
 		B5AA8E1529A120E100B808F5 /* TourView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E1229A120E100B808F5 /* TourView.storyboard */; };
 		B5AA8E1629A120E100B808F5 /* TourViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E1329A120E100B808F5 /* TourViewVC.swift */; };
 		B5AA8E1729A120E100B808F5 /* TourViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E1429A120E100B808F5 /* TourViewView.swift */; };
+		B5AA8E1929A1E9B200B808F5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E1829A1E9B200B808F5 /* WebView.swift */; };
+		B5AA8E1B29A1E9C300B808F5 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AA8E1A29A1E9C300B808F5 /* Web.storyboard */; };
+		B5AA8E1D29A1E9CB00B808F5 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA8E1C29A1E9CB00B808F5 /* WebVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -161,6 +164,9 @@
 		B5AA8E1229A120E100B808F5 /* TourView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TourView.storyboard; sourceTree = "<group>"; };
 		B5AA8E1329A120E100B808F5 /* TourViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewVC.swift; sourceTree = "<group>"; };
 		B5AA8E1429A120E100B808F5 /* TourViewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewView.swift; sourceTree = "<group>"; };
+		B5AA8E1829A1E9B200B808F5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B5AA8E1A29A1E9C300B808F5 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
+		B5AA8E1C29A1E9CB00B808F5 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +233,7 @@
 		B539B56729A09820004B38D9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B5AA8E1E29A1EAF300B808F5 /* Web */,
 				B5AA8DEE29A105B800B808F5 /* Book */,
 				B555B39429A0F7FA007DF10D /* Fav */,
 				B5AA8E0329A1134200B808F5 /* Filters */,
@@ -405,6 +412,16 @@
 			path = TourView;
 			sourceTree = "<group>";
 		};
+		B5AA8E1E29A1EAF300B808F5 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA8E1C29A1E9CB00B808F5 /* WebVC.swift */,
+				B5AA8E1829A1E9B200B808F5 /* WebView.swift */,
+				B5AA8E1A29A1E9C300B808F5 /* Web.storyboard */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		B846DA736BE5020AA23C827B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,6 +499,7 @@
 				B539B5D029A098AC004B38D9 /* mastercard.json in Resources */,
 				B555B38329A0A12A007DF10D /* Colors.xcassets in Resources */,
 				B5AA8E1029A11B9E00B808F5 /* Tours.storyboard in Resources */,
+				B5AA8E1B29A1E9C300B808F5 /* Web.storyboard in Resources */,
 				B539B55C29A09771004B38D9 /* Assets.xcassets in Resources */,
 				B555B39329A0F7F5007DF10D /* Fav.storyboard in Resources */,
 				B5AA8E0129A10B2C00B808F5 /* Profile.storyboard in Resources */,
@@ -578,6 +596,7 @@
 				B539B55329A09770004B38D9 /* AppDelegate.swift in Sources */,
 				B5AA8DFD29A10B1F00B808F5 /* ProfileVC.swift in Sources */,
 				B539B5B729A0986B004B38D9 /* URLSessionConfiguration.swift in Sources */,
+				B5AA8E1929A1E9B200B808F5 /* WebView.swift in Sources */,
 				B5AA8E1729A120E100B808F5 /* TourViewView.swift in Sources */,
 				B539B5E829A09ABB004B38D9 /* FieldView.swift in Sources */,
 				B539B5C429A0986B004B38D9 /* UIImageView.swift in Sources */,
@@ -585,6 +604,7 @@
 				B539B5EA29A09B45004B38D9 /* EmptyView.swift in Sources */,
 				B539B5BA29A0986B004B38D9 /* Loader.swift in Sources */,
 				B539B5A829A0986B004B38D9 /* Alert.swift in Sources */,
+				B5AA8E1D29A1E9CB00B808F5 /* WebVC.swift in Sources */,
 				B555B38C29A0F478007DF10D /* TabBarVC.swift in Sources */,
 				B539B5E429A099A3004B38D9 /* MainView.swift in Sources */,
 				B539B55529A09770004B38D9 /* SceneDelegate.swift in Sources */,
