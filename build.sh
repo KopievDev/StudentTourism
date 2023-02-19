@@ -1,3 +1,5 @@
 #!/bin/bash
 pod install
-swift build -v
+xcodebuild -workspace StudentTourism.xcworkspace \
+-scheme StudentTourism \
+-destination generic/platform=iOS build
