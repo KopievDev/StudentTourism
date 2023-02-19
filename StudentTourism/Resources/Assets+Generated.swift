@@ -40,6 +40,7 @@ internal enum Asset {
     internal static let geo = ImageAsset(name: "geo")
     internal static let global = ImageAsset(name: "global")
     internal static let heart = ImageAsset(name: "heart")
+    internal static let imgDacha = ImageAsset(name: "img_dacha")
     internal static let imgKurskCell = ImageAsset(name: "img_kursk_cell")
     internal static let imgMoscowCell = ImageAsset(name: "img_moscow_cell")
     internal static let imgTemplate = ImageAsset(name: "img_template")

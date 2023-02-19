@@ -11,7 +11,9 @@ class MainView: BaseView {
     @IBOutlet var bannerCollection: BannerCollection!
     @IBOutlet var cityCollection: CityCollection!
     @IBOutlet var hotelsCollection: CityCollection!
-    @IBOutlet var promotionCollection: CityCollection!
+    @IBOutlet var promotionCollection: PromotionCollection!
+    @IBOutlet var popularCollection: PopularCollection!
+
 
     
     override func customizeUI() {
@@ -19,6 +21,8 @@ class MainView: BaseView {
         cityCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
         hotelsCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"), Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
         promotionCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"), Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
+        popularCollection.items = [Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"), Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell"),Item(reuseId: "CityCell") ]
+
 
     }
     
@@ -61,3 +65,20 @@ class CityCollection: CollectionView {
     }
 
 }
+
+class PromotionCollection: CollectionView {
+
+   override func setUp() {
+       CellSize(widthScale: 0.38, aspectRatio: 1.3, insetX: 16).forCollectionView(collectionView, lineSpacing: 16, scrollDirection: .horizontal, withDecelerateFast: true)
+    }
+
+}
+
+class PopularCollection: CollectionView {
+
+   override func setUp() {
+       CellSize(widthScale: 0.62, aspectRatio: 0.78, insetX: 16).forCollectionView(collectionView, lineSpacing: 16, scrollDirection: .horizontal, withDecelerateFast: true)
+    }
+
+}
+
