@@ -50,7 +50,7 @@ private extension AppController {
         UIBarButtonItem.appearance().tintColor = Asset.Colors.sBlack.color
         UITextField.appearance().tintColor = Asset.Colors.sBlack.color
         UITextView.appearance().tintColor = Asset.Colors.sBlack.color
-        
+        UIApplication.shared.statusBarStyle = .darkContent
         if #available(iOS 13.0, *) {
             let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
             tabBarAppearance.configureWithDefaultBackground()
@@ -59,7 +59,6 @@ private extension AppController {
             let navBarAppearance: UINavigationBarAppearance = UINavigationBarAppearance()
             navBarAppearance.configureWithDefaultBackground()
             navBarAppearance.backgroundColor = Asset.Colors.sBackground.color
-            navBarAppearance.backButtonAppearance
             UINavigationBar.appearance().standardAppearance = navBarAppearance
             if #available(iOS 15.0, *) {
                 UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance

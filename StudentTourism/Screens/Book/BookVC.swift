@@ -13,6 +13,7 @@ class BookVC: BaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNeedsStatusBarAppearanceUpdate()
         setAttributed(title: "Брони".withAttr(font: .boldSystemFont(ofSize: 20)))
     }
     
