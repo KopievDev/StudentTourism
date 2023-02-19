@@ -32,7 +32,9 @@ private extension MainVC {
     
     @IBAction func didTapTour(button: UIButton) {
         Haptic.selection()
-        Router.showVC(type: TourViewVC.self)
+        Router.showVC(type: TourViewVC.self) {
+            $0.state[.image] = Asset.Assets.imgDacha.image
+        }
     }
     
 }

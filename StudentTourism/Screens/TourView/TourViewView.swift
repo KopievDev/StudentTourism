@@ -10,11 +10,17 @@ import UIKit
 class TourViewView: BaseView {
     
     @IBOutlet var roomCollection: RoomCollection!
+    @IBOutlet var imageView: UIImageView!
 
     
     override func customizeUI() {
         roomCollection.items = [Item(reuseId: "BannerCell"),Item(reuseId: "BannerCell"),Item(reuseId: "BannerCell"),Item(reuseId: "BannerCell") ]
+    }
     
+    override func render() {
+        if let image = state[.image] as? UIImage {
+            imageView.image = image
+        }
     }
 }
 

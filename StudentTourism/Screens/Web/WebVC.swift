@@ -11,6 +11,8 @@ class WebVC: BaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setAttributed(title: "Оплата".withAttr())
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { Loader.hide() }
     }
     
 }

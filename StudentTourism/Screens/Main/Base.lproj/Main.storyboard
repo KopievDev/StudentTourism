@@ -312,13 +312,24 @@
                                                                                 <constraint firstItem="71O-c5-b4E" firstAttribute="centerY" secondItem="Psg-oC-Cvv" secondAttribute="centerY" id="bx4-vT-E51"/>
                                                                             </constraints>
                                                                         </view>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-ai-Pe6">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="152" height="152"/>
+                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                            <connections>
+                                                                                <action selector="didTapTourWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="rB5-pD-Twc"/>
+                                                                            </connections>
+                                                                        </button>
                                                                     </subviews>
                                                                     <constraints>
+                                                                        <constraint firstItem="I5X-ai-Pe6" firstAttribute="width" secondItem="PjR-TP-fhF" secondAttribute="width" id="5rG-ib-U0U"/>
                                                                         <constraint firstItem="PjR-TP-fhF" firstAttribute="top" secondItem="3y4-Wd-qa2" secondAttribute="top" id="6l7-c0-IxU"/>
+                                                                        <constraint firstItem="I5X-ai-Pe6" firstAttribute="height" secondItem="PjR-TP-fhF" secondAttribute="height" id="BOE-AS-Isv"/>
+                                                                        <constraint firstItem="I5X-ai-Pe6" firstAttribute="centerX" secondItem="PjR-TP-fhF" secondAttribute="centerX" id="HvW-Ox-VfW"/>
                                                                         <constraint firstAttribute="bottom" secondItem="Mlz-w6-N1c" secondAttribute="bottom" constant="8" id="VNb-jJ-Bfo"/>
                                                                         <constraint firstItem="PjR-TP-fhF" firstAttribute="leading" secondItem="3y4-Wd-qa2" secondAttribute="leading" id="guR-g3-Kr3"/>
                                                                         <constraint firstItem="Mlz-w6-N1c" firstAttribute="leading" secondItem="3y4-Wd-qa2" secondAttribute="leading" id="hQo-dr-gB0"/>
                                                                         <constraint firstItem="Mlz-w6-N1c" firstAttribute="top" secondItem="PjR-TP-fhF" secondAttribute="bottom" constant="8" id="nZ6-zq-vLZ"/>
+                                                                        <constraint firstItem="I5X-ai-Pe6" firstAttribute="centerY" secondItem="PjR-TP-fhF" secondAttribute="centerY" id="vfD-of-n1t"/>
                                                                         <constraint firstAttribute="trailing" secondItem="PjR-TP-fhF" secondAttribute="trailing" id="wh8-r6-pjj"/>
                                                                         <constraint firstAttribute="trailing" secondItem="Mlz-w6-N1c" secondAttribute="trailing" id="xOD-ab-rjj"/>
                                                                     </constraints>

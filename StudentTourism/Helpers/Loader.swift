@@ -97,7 +97,7 @@ class LoaderView: UIView {
     }()
     
     private lazy var blurView: BlurView = {
-        let view = BlurView(radius: 6, color: .fDarkGray, colorAlpha: 0.5)
+        let view = BlurView(radius: 6, color: Asset.Colors.sBlack.color, colorAlpha: 0.5)
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.frame = frame
         return view

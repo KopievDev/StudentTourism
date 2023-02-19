@@ -1015,6 +1015,7 @@
                             <constraint firstItem="hli-oQ-qCx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="oL5-mv-Smy"/>
                         </constraints>
                         <connections>
+                            <outlet property="imageView" destination="N8B-gM-ekO" id="Sf4-5u-gh0"/>
                             <outlet property="roomCollection" destination="des-iN-5yM" id="jFH-ix-Gb8"/>
                         </connections>
                     </view>
