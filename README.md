@@ -1,7 +1,7 @@
 # Хакатон Молодёжный Бит
 ### Кейс Моложёжный туризм
 
-Презентация: https://drive.google.com/file/d/1x8oIuv6omFBjC0hYBKC-1PS8OLXOln9R/view
+Презентация: https://drive.google.com/file/d/1A_gds9k8e-8izrQCrq2wJ4e2HvFNTdZd/view
 
 Видео: https://www.youtube.com/watch?v=iHb0F9nxnIc
 
