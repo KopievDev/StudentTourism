@@ -151,7 +151,7 @@
                                                                             <color key="textColor" name="sBackground"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X78-Cx-EbR">
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X78-Cx-EbR" customClass="Button" customModule="StudentTourism" customModuleProvider="target">
                                                                             <rect key="frame" x="16" y="167" width="156" height="44"/>
                                                                             <color key="backgroundColor" name="sGreen"/>
                                                                             <constraints>
@@ -166,6 +166,7 @@
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                                     <real key="value" value="8"/>
                                                                                 </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="withAnimate" value="YES"/>
                                                                             </userDefinedRuntimeAttributes>
                                                                             <connections>
                                                                                 <action selector="didTapToursWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="lO9-JV-zAR"/>
@@ -427,14 +428,25 @@
                                                                                 </userDefinedRuntimeAttribute>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </imageView>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovX-AZ-Ukb">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="152" height="185.33333333333334"/>
+                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                            <connections>
+                                                                                <action selector="didTapTourWithButton:" destination="pzc-gm-IiC" eventType="touchUpInside" id="6eS-dG-bBE"/>
+                                                                            </connections>
+                                                                        </button>
                                                                     </subviews>
                                                                     <constraints>
+                                                                        <constraint firstItem="ovX-AZ-Ukb" firstAttribute="centerX" secondItem="XhT-rf-CUp" secondAttribute="centerX" id="8er-Ed-hE9"/>
                                                                         <constraint firstItem="J9a-b8-c4z" firstAttribute="width" secondItem="lTf-sK-Cb8" secondAttribute="width" multiplier="0.644737" id="9kF-7H-LBW"/>
                                                                         <constraint firstAttribute="bottom" secondItem="J9a-b8-c4z" secondAttribute="bottom" id="B72-zP-W6V"/>
                                                                         <constraint firstItem="J9a-b8-c4z" firstAttribute="leading" secondItem="V6G-ij-ouX" secondAttribute="leading" id="EcL-tR-Hc9"/>
                                                                         <constraint firstItem="XhT-rf-CUp" firstAttribute="leading" secondItem="V6G-ij-ouX" secondAttribute="leading" id="HJc-TV-DCt"/>
+                                                                        <constraint firstItem="ovX-AZ-Ukb" firstAttribute="height" secondItem="XhT-rf-CUp" secondAttribute="height" id="I32-pL-WMz"/>
+                                                                        <constraint firstItem="ovX-AZ-Ukb" firstAttribute="centerY" secondItem="XhT-rf-CUp" secondAttribute="centerY" id="Rvg-nY-zQU"/>
                                                                         <constraint firstItem="lTf-sK-Cb8" firstAttribute="leading" secondItem="V6G-ij-ouX" secondAttribute="leading" id="V5n-13-iSS"/>
                                                                         <constraint firstAttribute="trailing" secondItem="XhT-rf-CUp" secondAttribute="trailing" id="Wnp-xa-Csf"/>
+                                                                        <constraint firstItem="ovX-AZ-Ukb" firstAttribute="width" secondItem="XhT-rf-CUp" secondAttribute="width" id="Y6p-Wx-F2r"/>
                                                                         <constraint firstItem="XhT-rf-CUp" firstAttribute="top" secondItem="V6G-ij-ouX" secondAttribute="top" id="Zue-MH-8gq"/>
                                                                         <constraint firstItem="lTf-sK-Cb8" firstAttribute="top" secondItem="XhT-rf-CUp" secondAttribute="bottom" constant="8" id="eUp-5S-6cH"/>
                                                                         <constraint firstItem="J9a-b8-c4z" firstAttribute="top" secondItem="lTf-sK-Cb8" secondAttribute="bottom" constant="4" id="koV-Wr-npc"/>

@@ -24,12 +24,14 @@ private extension MainVC {
     }
     
     @IBAction func didTapTours(button: UIButton) {
+        Haptic.selection()
         Router.showVC(type: ToursVC.self) { vc in
             vc.set(title: "Беги к холмам")
         }
     }
     
     @IBAction func didTapTour(button: UIButton) {
+        Haptic.selection()
         Router.showVC(type: TourViewVC.self)
     }
     
