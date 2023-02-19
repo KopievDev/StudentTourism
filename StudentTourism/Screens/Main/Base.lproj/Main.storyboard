@@ -633,6 +633,11 @@
             <point key="canvasLocation" x="139.69465648854961" y="-23.239436619718312"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="X78-Cx-EbR">
+            <size key="intrinsicContentSize" width="156" height="32"/>
+        </designable>
+    </designables>
     <resources>
         <image name="filter" width="24" height="24"/>
         <image name="img_kursk_cell" width="164" height="200"/>

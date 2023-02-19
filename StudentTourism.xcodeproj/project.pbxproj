@@ -227,7 +227,6 @@
 		B539B56729A09820004B38D9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				B5AA8E1129A120E100B808F5 /* TourView */,
 				B5AA8DEE29A105B800B808F5 /* Book */,
 				B555B39429A0F7FA007DF10D /* Fav */,
 				B5AA8E0329A1134200B808F5 /* Filters */,
@@ -237,6 +236,7 @@
 				B5AA8E0229A10D5C00B808F5 /* Profile */,
 				B555B38D29A0F7C9007DF10D /* Tabbar */,
 				B5AA8E0A29A11B9E00B808F5 /* Tours */,
+				B5AA8E1129A120E100B808F5 /* TourView */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -760,6 +760,7 @@
 				DEVELOPMENT_TEAM = PFRDA29FJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudentTourism/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "СтудТуризм";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -789,6 +790,7 @@
 				DEVELOPMENT_TEAM = PFRDA29FJ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudentTourism/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "СтудТуризм";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
